@@ -40,7 +40,7 @@ dispatch({
 
 © sugarshin
 
-[circleci-image]: https://circleci.com/gh/sugarshin/redux-camelize/tree/master.svg?style=svg&circle-token=
+[circleci-image]: https://circleci.com/gh/sugarshin/redux-camelize/tree/master.svg?style=svg&circle-token=fce7a1b89ecdbdb59e570ae5277063193e224fd0
 [circleci-url]: https://circleci.com/gh/sugarshin/redux-camelize/tree/master
 [codecov-image]: https://codecov.io/gh/sugarshin/redux-camelize/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/sugarshin/redux-camelize
