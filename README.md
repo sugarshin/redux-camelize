@@ -5,7 +5,7 @@
 [![npm version][npm-image]][npm-url]
 [![License][license-image]][license-url]
 
-Camelize payload middleware for Redux.
+FSA-compliant camelize payload middleware for [Redux](http://redux.js.org/).
 
 ```bash
 yarn add redux-camelize
@@ -14,6 +14,12 @@ yarn add redux-camelize
 
 npm i redux-camelize
 ```
+
+## FSA-compliant
+
+Using in combination with [redux-actions](https://github.com/acdlite/redux-actions).
+
+Because it supports FSA actions, you can use this in combination with redux-actions.
 
 ## Usage
 

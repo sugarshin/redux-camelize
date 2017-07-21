@@ -1,7 +1,7 @@
 {
   "name": "redux-camelize",
   "version": "1.0.0",
-  "description": "Camelize payload middleware for Redux",
+  "description": "FSA-compliant camelize payload middleware for Redux",
   "main": "lib/index.js",
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
