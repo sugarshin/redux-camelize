@@ -4,6 +4,7 @@
     "node": true
   },
   "extends": ["eslint:recommended", "plugin:ava/recommended"],
+  "parser": "babel-eslint",
   "plugins": ["babel", "ava"],
   "parserOptions": {
     "sourceType": "module"
