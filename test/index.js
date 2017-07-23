@@ -1,8 +1,15 @@
 import test from 'ava'
-import middleware from 'index'
-import camelizeKeys from 'camelizeKeys'
+import middleware, { camelizeKeys } from 'index'
 
-[
+test('main is function', t => {
+  t.is(typeof middleware, 'function')
+})
+
+test('camelizeKeys is function', t => {
+  t.is(typeof camelizeKeys, 'function')
+})
+
+;[
   {
     subject: 'handled',
     meta: { camelize: true },

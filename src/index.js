@@ -7,4 +7,5 @@ const camelizeMiddleware = () => next => action => {
   return next(action)
 }
 
+export { camelizeKeys }
 export default camelizeMiddleware
