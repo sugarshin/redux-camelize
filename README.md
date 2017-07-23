@@ -30,7 +30,7 @@ import camelize from 'redux-camelize'
 const store = createStore(
   rootReducer,
   initialState,
-  applyMiddleware(camelize)
+  applyMiddleware(camelize())
 )
 
 dispatch({
@@ -40,7 +40,22 @@ dispatch({
 })
 ```
 
-### You can use camelizer
+It's ignored on error.
+
+### Run on error
+
+```js
+// You can use `ignoreOnError` option
+const middleware = camelize({ ignoreOnError: false })
+
+dispatch({
+  type: 'RECIEVE_USER_ENTITY',
+  payload: new Error('some error'),
+  meta: { camelize: true },
+})
+```
+
+### You can import camelizer
 
 ```js
 import { camelizeKeys } from 'redux-camelize'

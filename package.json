@@ -11,6 +11,7 @@
   ],
   "keywords": [
     "redux",
+    "camelcase",
     "camelize",
     "middleware",
     "redux-middleware"
@@ -56,7 +57,6 @@
     "eslint": "^4.3.0",
     "eslint-plugin-ava": "^4.2.1",
     "eslint-plugin-babel": "^4.1.1",
-    "nyc": "^11.0.3",
-    "redux": "^3.7.2"
+    "nyc": "^11.0.3"
   }
 }
