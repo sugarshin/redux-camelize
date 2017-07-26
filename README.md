@@ -59,8 +59,8 @@ dispatch({
 
 ```js
 import { camelizeKeys } from 'redux-camelize'
-const subject = { f_o_o: 1, bar: 2, Buz: 3, Qu_x: 4 }
-const expected = { fOO: 1, bar: 2, Buz: 3, QuX: 4 }
+const subject = { f_o_o: 1, bar: { Buz: 3, Qu_x: [{ qu_uX: 4 }] } }
+const expected = { fOO: 1, bar: { buz: 3, quX: [{ quUX: 4 }] } }
 deepEqual(camelizeKeys(subject), expected)
 ```
 
