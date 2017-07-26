@@ -1,6 +1,6 @@
 import deepMapKeys from 'deep-map-keys'
-import camelize from 'camelize'
+import camelcase from 'lodash.camelcase'
 
-const camelizeKeys = object => deepMapKeys(object, camelize)
+const camelizeKeys = object => deepMapKeys(object, camelcase)
 
 export default camelizeKeys
