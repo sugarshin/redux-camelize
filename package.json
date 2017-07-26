@@ -44,8 +44,8 @@
   },
   "homepage": "https://github.com/sugarshin/redux-camelize#readme",
   "dependencies": {
-    "camelize": "^1.0.0",
-    "deep-map-keys": "^1.2.0"
+    "deep-map-keys": "^1.2.0",
+    "lodash.camelcase": "^4.3.0"
   },
   "devDependencies": {
     "ava": "^0.21.0",
